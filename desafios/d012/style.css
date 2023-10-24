@@ -26,7 +26,7 @@ header{
 
 header > h1{
     padding-top: 50px;
-    font-size: 4em;
+    font-size: 10vw;
     margin-bottom: 10px;
     font-family: var(--font-titulo);
     font-variant: small-caps;
@@ -54,23 +54,21 @@ section{
 }
 
 main p{
-    font-size: 1.5em;
+    font-size: 3.5vw;
     line-height: 2em;
     font-family: var(--font-corpo);
 }
 
 .parallax{
-    background-image: url('imagens/background001.jpg');
-    background-size: cover;
-    height: 800px;
+    background-color: darkgray;
 }
 
 .parallax > p {
-    padding-left: 15px;
+    padding: 5px;
     margin-left: 0px;
     background-color: rgba(0, 0, 0, 0.205);
     color: white;
-    max-width: 350px;
+    display: inline-block;
 }
 
 footer{
