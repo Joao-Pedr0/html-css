@@ -21,7 +21,6 @@ header{
     background-color: black;
     color: white;    
     text-align: center;
-    margin-bottom: 100px;
 }
 
 header > h1{
@@ -53,6 +52,10 @@ section{
     padding-left: 30px;
 }
 
+section p {
+    padding-bottom: 2em;
+}
+
 main p{
     font-size: 3.5vw;
     line-height: 2em;
@@ -61,14 +64,29 @@ main p{
 
 .parallax{
     background-color: darkgray;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.507);
+    background-attachment: fixed;
 }
 
 .parallax > p {
     padding: 5px;
     margin-left: 0px;
-    background-color: rgba(0, 0, 0, 0.205);
+    background-color: rgba(0, 0, 0, 0.514);
     color: white;
     display: inline-block;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 
 footer{
